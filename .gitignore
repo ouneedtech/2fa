@@ -1,0 +1,14 @@
+node_modules/
+.cache/
+.local/
+.wrangler/
+.dev.vars
+.env
+.env.*
+!.env.example
+test-results/
+playwright-report/
+release/
+*.log
+*.zip
+agent-grant*.json

@@ -1,0 +1,20 @@
+{
+  "name": "cf-totp-vault",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev --local --persist-to .local/state --ip 127.0.0.1",
+    "db:local": "wrangler d1 execute vault --local --persist-to .local/state --file schema.sql",
+    "db:remote": "wrangler d1 execute vault --remote --file schema.sql",
+    "deploy": "wrangler deploy",
+    "check": "node --check src/worker.js && node --check scripts/agent.mjs && node scripts/check.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "test:browser": "playwright test",
+    "package": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/package.ps1"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.1",
+    "wrangler": "4.151.1"
+  }
+}

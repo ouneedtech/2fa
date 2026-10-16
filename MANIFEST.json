@@ -1,0 +1,122 @@
+[
+    {
+        "path":  ".gitignore",
+        "bytes":  149,
+        "sha256":  "ec8897836b238fca7bc650d7e40a779b6b7348d1dbe1ed6e83585774d027d690"
+    },
+    {
+        "path":  "package.json",
+        "bytes":  753,
+        "sha256":  "f5a6a30e7144cee26624e362b0add7e2ae0be1046880e2e5e7112c50f79585c2"
+    },
+    {
+        "path":  "package-lock.json",
+        "bytes":  51567,
+        "sha256":  "aa307cbc60ce8caa42245f6e68e8b5f78acdf2c8c062b2e874585d675c525fee"
+    },
+    {
+        "path":  "wrangler.toml",
+        "bytes":  517,
+        "sha256":  "476ffc0fc97a5335808aeef78a91353f262aeb4cdedea136f32257f20808cfe0"
+    },
+    {
+        "path":  "schema.sql",
+        "bytes":  1301,
+        "sha256":  "a69122139b6aa96da8fd8f8eafbec598a90a0d009369515f63226b9785bc9cb6"
+    },
+    {
+        "path":  "README.md",
+        "bytes":  9567,
+        "sha256":  "fc474440d99893809ace987a6d80219776c0e0799d5a4b2f919fe3970508b81f"
+    },
+    {
+        "path":  "API.md",
+        "bytes":  7468,
+        "sha256":  "a612ba980028e933f751b7aa531370d9a4bca666a5317274e191f1d56f122647"
+    },
+    {
+        "path":  "SECURITY.md",
+        "bytes":  7957,
+        "sha256":  "ee34173ab23752969e19d4074a18b9bf62d786e38afedd457a9bb6732c8e6046"
+    },
+    {
+        "path":  "AUDIT.md",
+        "bytes":  6887,
+        "sha256":  "7d7498272b8d0d922473879326d76bc0e3b8b792b81bb66866e10b59a46e152e"
+    },
+    {
+        "path":  "PLAN.md",
+        "bytes":  3059,
+        "sha256":  "21fd5ff99ae4e7222adb50fdbade8ccb1a708602e25bb8e1b46e9f976e3e7159"
+    },
+    {
+        "path":  "LICENSE",
+        "bytes":  1075,
+        "sha256":  "e1f3c0ade8c0d0fc4b9435d08e9340952b79bd1176e94265d8ca7c166982b585"
+    },
+    {
+        "path":  "public/index.html",
+        "bytes":  58481,
+        "sha256":  "842efff19aa5acd745a48471b4fcf7e53cacce672ab5dd4676690b9f824dd3e0"
+    },
+    {
+        "path":  "src/worker.js",
+        "bytes":  15408,
+        "sha256":  "5317041402a2f7ae0e11e98f2a33ac3654fa2804b341f7f8afc09ce0b68f98c4"
+    },
+    {
+        "path":  "playwright.config.mjs",
+        "bytes":  729,
+        "sha256":  "6c236bbbff13fcee069449778656652151cc328ad7761ebf7aec9f7276b82870"
+    },
+    {
+        "path":  ".github/workflows/ci.yml",
+        "bytes":  541,
+        "sha256":  "9c6591eb0245a9e11ee7b59eaccdd10f0de64251fade3ab6a1ac2593f9628085"
+    },
+    {
+        "path":  ".github/workflows/deploy.yml",
+        "bytes":  923,
+        "sha256":  "87038ea96aee84002b0b6d1ea68903b0de3fd7e352c85152a4e754699b02a85b"
+    },
+    {
+        "path":  "scripts/agent.mjs",
+        "bytes":  5327,
+        "sha256":  "859973f9897a825022b82d61faa73e081795423f438b0a0d94bf882f062080e9"
+    },
+    {
+        "path":  "scripts/check.mjs",
+        "bytes":  1306,
+        "sha256":  "a2c148820c2de621c575447f234186943a74172055eb1afc4a07bce8a98e20b5"
+    },
+    {
+        "path":  "scripts/package.ps1",
+        "bytes":  4679,
+        "sha256":  "666959e1ef8cc3507f23228b2a0ea337664288ee97aab421c97fc0c541fb390d"
+    },
+    {
+        "path":  "scripts/preview.mjs",
+        "bytes":  1514,
+        "sha256":  "17884e465d67fae25b3940b629bb7c1b71d49fc335623438cdf78080d578b626"
+    },
+    {
+        "path":  "scripts/lib/local-d1.mjs",
+        "bytes":  1031,
+        "sha256":  "6dbd96a78905c60335e8684b131247cbff6da2461f77c80cf9e5f807cfb4a09e"
+    },
+    {
+        "path":  "tests/api.test.mjs",
+        "bytes":  8880,
+        "sha256":  "e10353ee12ad50cf8572c10ea01816c02ccadbc58aaeb6e47d3c95d66eaa9557"
+    },
+    {
+        "path":  "tests/crypto.test.mjs",
+        "bytes":  2971,
+        "sha256":  "f50e334aec2470b375636ad32dfe91576afa7cf9fdd1b98464439fef49b7b6b4"
+    },
+    {
+        "path":  "tests/browser/vault.spec.mjs",
+        "bytes":  8314,
+        "sha256":  "e4a0f800b76205d64587f9f6c9833b233f5f013f826b9638ec1d55dc09d00443"
+    }
+]
